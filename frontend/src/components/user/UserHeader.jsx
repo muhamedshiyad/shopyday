@@ -10,19 +10,20 @@ export const UserHeader = () => {
           <div className='text-3xl'>shopyday</div>
         </Link>
   <div className="flex-none gap-5">
-    <Link to={"/product"}>
+    <Link to={"product"}>
       products
       </Link>
    {/* <Darkmode/>*/} 
     <div className="form-control">
       <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
     </div>
-    <Link to={"/likepage"}>
+    <Link to={"likepage"}>
       <Heart/>
       </Link>
-      <Link to={"/cart"}>
+      <Link to={"cart"}>
       <ShoppingBag/>
       </Link>
+      
     <div className="dropdown dropdown-end">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
         <div className="w-10 rounded-full">
